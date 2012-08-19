@@ -1,0 +1,6 @@
+some programme about the pthread.
+when to compile the programme.
+just type "make + programme name"
+e.g.
+	make print_pthreadid 
+to compile the print_pthreadid.c file
