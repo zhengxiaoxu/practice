@@ -15,4 +15,14 @@
  *
  * =====================================================================================
  */
+#ifndef __SQUARE_SORT_H_
+#define __SQUARE_SORT_H_
 
+typedef struct square{
+	int 	num;
+	int 	len;
+	int 	width;
+}square;
+
+
+#endif

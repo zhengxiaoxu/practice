@@ -15,5 +15,34 @@
  *
  * =====================================================================================
  */
+
+#include "square_sort.h"
 #include <stdlib.h>
+#include <stdio.h>
+
+void square_sort(struct square *squ )
+{
+	struct square temp;	
+	if(squ->num == (squ+1)->num) {
+		if(squ->len == (squ+1)->len) {
+			if(squ->width == (squ+1)->width) {
+				
+			}
+			else {
+
+			}
+		}
+		else {
+
+		}
+	}
+	else {
+
+	}
+}
+
+
+
+
+
 
