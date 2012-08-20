@@ -1,6 +1,6 @@
 CC = gcc
 
-PROGS = print_threadid get_thread_exit_sta pthread_exit_err
+PROGS = print_threadid get_thread_exit_sta pthread_exit_err pthread_cleanup
 
 print_threadid: print_threadid.o
 	${CC} -o $@ print_threadid.o -lpthread
@@ -11,6 +11,8 @@ get_thread_exit_sta: get_thread_exit_sta.o
 pthread_exit_err: pthread_exit_err.o
 	${CC} -o $@ pthread_exit_err.o -lpthread
 
+pthread_cleanup: pthread_cleanup.o
+	${CC} -o $@ pthread_cleanup.o -lpthread
 clean:
 	rm -f ${PROGS} *.o core.* *.out core
 
